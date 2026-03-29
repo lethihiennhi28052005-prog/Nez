@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f0f0f;
+    color: white;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+.logo-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 50px;
+}
+
+/* TOP MENU */
+.menu-top span {
+    margin-left: 20px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* MENU */
+.menu {
+    display: flex;
+    gap: 20px;
+    padding: 10px 40px;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+.menu a, .menu span {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+/* TITLE */
+.title {
+    padding: 30px 40px 10px;
+}
+
+.title h1 {
+    font-size: 40px;
+}
+
+/* CATEGORY */
+.category {
+    display: flex;
+    gap: 40px;
+    padding: 10px 40px 30px;
+}
+
+.category span {
+    opacity: 0.6;
+}
+
+.category .active {
+    background: white;
+    color: black;
+    padding: 5px 10px;
+}
+
+/* PRODUCTS */
+.products {
+.banner {
+    display: flex;
+}
+
+.banner-left,
+.banner-right {
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+
+}
